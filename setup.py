@@ -36,7 +36,7 @@ extras["all"] = list(
 )
 
 setup(
-    name="gym",
+    name="gym2",
     version=VERSION,
     description="Gym: A universal API for reinforcement learning environments",
     url="https://www.gymlibrary.ml/",
