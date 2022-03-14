@@ -14,8 +14,8 @@ _load_env_plugins()
 # ----------------------------------------
 
 register(
-     id='Lqr-v0',
-     entry_point='gym.envs.classic_control:LqrEnv',
+     id="Lqr-v0",
+     entry_point="gym.envs.classic_control:LqrEnv",
      max_episode_steps=150,
      kwargs={'size' : 1, 'init_state' : 10., 'state_bound' : np.inf},
 )
